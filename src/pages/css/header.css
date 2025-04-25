@@ -1,0 +1,13 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.5s forwards; /* Adjust the duration (1.5s) as needed */
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

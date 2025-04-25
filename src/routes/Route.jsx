@@ -1,14 +1,16 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Header from '../components/Header/Header'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "../components/home/Home";
+import About from "../pages/ABout";
 const Allroutes = () => {
   return (
     <>
-        <Routes>
-            <Route path="/" element={<Header/>}></Route>
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About/>}></Route>
+      </Routes>
     </>
-  )
-}
+  );
+};
 
-export default Allroutes
+export default Allroutes;
